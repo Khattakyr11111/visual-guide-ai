@@ -21,3 +21,10 @@ After onboarding completion, the first web preview exposed a native `DeviceMotio
 ## Safe-Step and Settings smoke test
 
 The main action changes from `Start Safe-Step` to `Pause Safe-Step` and updates the hero card to `SAFE-STEP ACTIVE`, `NOTICE`, and a concise pause-and-recheck message. The Settings tab renders four spoken languages, helper-friendly explanations, spoken/haptic/concise toggles, and Android permission status rows. The home and settings routes remained accessible through the tab bar.
+
+## Public preview
+
+The live Expo web preview is publicly reachable at:
+https://8081-in4d5717hos0pi3gt7l7y-0257f7f9.sg2.manus.computer
+
+The public page rendered the Visual Guide AI Safe-Step home screen with live position, one-hour guardian sharing, nearby search, camera guide, multilingual voice status, motion status, safety boundary, and tab navigation.
