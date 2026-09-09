@@ -48,3 +48,15 @@ The camera experience is **on-demand capture-and-answer**, not continuous real-t
 [1]: https://www.bemyeyes.com/ "Be My Eyes — Accessibility Technology for blind & low vision people"
 
 [2]: https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal&hl=en_US "Lookout - Assisted vision — Google Play"
+
+## Native Android build
+
+A native Android debug APK was successfully built locally after generating the Android project and resolving the Expo Camera native dependency. The APK package is `com.app.visionguideai`, version `1.0.0`, version code `1`, minimum Android SDK `24`, target SDK `36`, and the artifact size is approximately 102 MB.
+
+Download the installable APK:
+
+https://files.manuscdn.com/user_upload_by_module/session_file/310519663817504864/eknmkeQegMXREXgQ.apk
+
+SHA-256: `0ccb646f4e209f1a99e68b82ff39334a70d81c2a54a6353ad13c22e99eb76bf6`
+
+This is a debug-signed development APK intended for direct installation and testing. It is not the final Play Store-signed release. For Google Play, generate a production AAB with an owner-controlled upload key through the included EAS production profile or a release signing configuration.
