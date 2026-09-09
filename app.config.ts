@@ -101,6 +101,7 @@ const config: ExpoConfig = {
       "expo-camera",
       {
         cameraPermission: "Allow $(PRODUCT_NAME) to use the camera when you ask what is in front of you.",
+        barcodeScannerEnabled: false,
       },
     ],
     [
